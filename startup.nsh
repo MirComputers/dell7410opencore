@@ -1,0 +1,14 @@
+fs0:
+cd efi/oc/tools
+
+.\setup_var.efi 0x6ED 0x00
+
+.\setup_var.efi 0x789 0x00
+
+.\setup_var.efi 0xA10 0x02
+
+.\setup_var.efi 0x16 0x0 -n PchSetup
+
+.\setup_var.efi 0x3E 0x0 -n CpuSetup 
+
+.\setup_var.efi 0xDA 0x0 -n CpuSetup 
